@@ -1,4 +1,7 @@
+"use client";
+
 import styles from "../styles/dashboard.module.css";
+import { useSearch } from "../context/SearchContext";
 
 interface Order {
   customer: string;
@@ -15,6 +18,16 @@ const orders: Order[] = [
 ];
 
 export default function DashboardPage() {
+  const { searchTerm } = useSearch();
+
+  // Filter orders dynamically based on search term
+  const filteredOrders = orders.filter((order) =>
+    Object.values(order)
+      .join(" ")
+      .toLowerCase()
+      .includes(searchTerm.toLowerCase())
+  );
+
   return (
     <div className={styles.dashboard}>
       <h1 className={styles.title}>Repair Dashboard</h1>
@@ -27,14 +40,18 @@ export default function DashboardPage() {
           <div>Date Accepted</div>
         </div>
 
-        {orders.map((order, i) => (
-          <div key={i} className={styles.row}>
-            <div>{order.customer}</div>
-            <div>{order.automower}</div>
-            <div className={styles.status}>{order.status}</div>
-            <div>{order.dateAccepted}</div>
-          </div>
-        ))}
+        {filteredOrders.length > 0 ? (
+          filteredOrders.map((order, i) => (
+            <div key={i} className={styles.row}>
+              <div>{order.customer}</div>
+              <div>{order.automower}</div>
+              <div className={styles.status}>{order.status}</div>
+              <div>{order.dateAccepted}</div>
+            </div>
+          ))
+        ) : (
+          <div className={styles.noResults}>No matching results found.</div>
+        )}
       </div>
     </div>
   );

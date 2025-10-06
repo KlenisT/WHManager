@@ -1,19 +1,20 @@
 "use client";
 import styles from "../styles/header.module.css";
+import { useSearch } from "../context/SearchContext";
 
 export default function Header() {
+  const { searchTerm, setSearchTerm } = useSearch();
+
   return (
     <header className={styles.header}>
-      <div className={styles.logo}>siia võiks tulla search</div>
-      <button
-        className={styles.menuButton}
-        onClick={() => {
-          const sidebar = document.getElementById("sidebar");
-          sidebar?.classList.toggle(styles.sidebarOpen);
-        }}
-      >
-        ☰
-      </button>
+      <div className={styles.logo}>WH Manager</div>
+      <input
+        type="text"
+        placeholder="Search..."
+        className={styles.searchInput}
+        value={searchTerm}
+        onChange={(e) => setSearchTerm(e.target.value)}
+      />
     </header>
   );
 }
