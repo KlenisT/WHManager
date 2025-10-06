@@ -1,7 +1,10 @@
-import type { NextConfig } from "next";
+import { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  reactStrictMode: true,
+  images: {
+    domains: ["upload.wikimedia.org"], // ✅ add your external image host here
+  },
 };
 
 export default nextConfig;
