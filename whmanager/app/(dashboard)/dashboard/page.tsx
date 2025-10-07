@@ -1,9 +1,11 @@
-// app/dashboard/page.tsx
+// app/(dashboard)/dashboard/page.tsx
+// Purpose: Dashboard page wrapped by the (dashboard) group layout.
+
 import { getServerSession } from "next-auth";
 import { redirect } from "next/navigation";
-import { authOptions } from "../api/auth/[...nextauth]/route";
-import styles from "../styles/dashboard.module.css";
-import { useSearch } from "../context/SearchContext";
+import { authOptions } from "../../api/auth/[...nextauth]/route";
+import styles from "../../styles/dashboard.module.css";
+import { useSearch } from "../../context/SearchContext";
 
 interface Order {
   customer: string;
@@ -72,3 +74,5 @@ export default async function DashboardPage() {
 
   return <DashboardContent />; // render client-side component
 }
+
+

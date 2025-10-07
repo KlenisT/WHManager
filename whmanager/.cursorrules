@@ -1,0 +1,73 @@
+# === Cursor Rules for WHManager Project ===
+# Project: WarehouseManager
+# Owner: Klen
+# Style: Clean, modular, professional look with light animations and solid structure
+
+project:
+  name: WHManager
+  description: >
+    A Next.js 14+ TypeScript web app for managing Husqvarna Automower repair orders, warehouse stock and inventory.
+    Features include user authentication, search filtering, and a dashboard interface.
+
+general:
+  - Always write code in TypeScript.
+  - Prefer CSS Modules or plain CSS.
+  - Keep styles in app/styles or inside app/<page>/ directory.
+  - Keep imports relative and short (avoid deep ../../ paths).
+  - Write self-explanatory variable names (no single-letter variables).
+  - Use async/await syntax — never then() chains.
+  - Follow Next.js App Router conventions.
+
+architecture:
+  - Use the app/ directory structure (Next.js 14+).
+  - Keep global styles only in app/globals.css.
+  - Use nested layouts only when UI structure differs (e.g., login page).
+  - Login page must not include sidebar or header layout.
+  - Dashboard and other pages inherit the main layout.
+
+auth:
+  - Use NextAuth.js with credentials provider for login.
+  - Redirect user to /dashboard on successful login.
+  - Redirect unauthorized users to /login.
+  - Store authentication logic in /lib/auth.ts or /app/api/auth/.
+
+frontend:
+  - Prefer <Image> component for external images and configure next.config.ts accordingly.
+  - Use responsive layouts with flex and grid.
+  - Avoid unnecessary libraries; rely on built-in React/Next features.
+  - Components should be functional, not class-based.
+
+code_style:
+  - Use const and arrow functions by default.
+  - Use double quotes for JSX props, single quotes for JS.
+  - Keep functions under 40 lines when possible.
+  - Include type definitions for props and state.
+  - Comments: short, actionable, and written in imperative voice.
+
+commit_rules:
+  - Use present-tense imperative commits (e.g., “Add login layout”).
+  - Prefix commits with type:
+    - feat: new feature
+    - fix: bug fix
+    - style: CSS or formatting
+    - refactor: internal restructuring
+    - chore: maintenance or dependency updates
+
+cursor_behavior:
+  - When editing code, keep consistent spacing and formatting.
+  - Preserve custom comments, TODOs, and console logs.
+  - When generating files, always add a header comment describing its purpose.
+  - If asked to modify code, keep unchanged functionality intact.
+  - When creating CSS, keep it visually balanced — no overuse of bright colors.
+
+extras:
+  - Project uses Vercel for deployment — ensure all configs remain deploy-ready.
+  - Project uses MongoDB for database.
+  - Project uses NextAuth.js for authentication.
+  - Project uses React for frontend.
+  - Project uses Next.js for backend.
+  - Project uses TypeScript for all code.
+  - Project uses ESLint for code linting.
+  - Project uses Prettier for code formatting.
+  - Domain: whmanager.ee
+  - Primary theme colors: dark background (#0f172a), Husqvarna green (#00d084), subtle white text.
