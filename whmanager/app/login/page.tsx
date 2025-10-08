@@ -37,8 +37,8 @@ export default function LoginPage() {
     <div className="auth-container">
       <div className="auth-box">
         <Image
-          src="https://upload.wikimedia.org/wikipedia/commons/2/21/Husqvarna_Automower_315X.jpg"
-          alt="Automower"
+          src="/vercel.svg"
+          alt="WH Manager Login Screen Picture"
           width={180}
           height={180}
           className="auth-img"

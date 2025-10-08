@@ -1,5 +1,5 @@
-// app/(dashboard)/layout.tsx
-// Purpose: Dashboard group layout that includes Sidebar and Header.
+// app/dashboard/layout.tsx
+// Purpose: Route layout for dashboard with Sidebar, Header, and SearchProvider.
 
 import Sidebar from "../components/Sidebar";
 import Header from "../components/Header";
