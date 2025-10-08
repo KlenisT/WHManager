@@ -7,7 +7,6 @@ export default function Header() {
 
   return (
     <header className={styles.header}>
-      <div className={styles.logo}>WH Manager</div>
       <input
         type="text"
         placeholder="Search..."
@@ -15,6 +14,8 @@ export default function Header() {
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
       />
+      <div className={styles.logo}>WH Manager</div>
+      
     </header>
   );
 }

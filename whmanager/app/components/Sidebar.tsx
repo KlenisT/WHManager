@@ -5,9 +5,9 @@ import Link from "next/link";
 
 const navLinks = [
   { name: "Dashboard", path: "/dashboard" },
-  { name: "Inventory", path: "/inventory" },
-  { name: "Reports", path: "/reports" },
-  { name: "Settings", path: "/settings" },
+  //{ name: "Inventory", path: "/inventory" },
+  //{ name: "Reports", path: "/reports" },
+  //{ name: "Settings", path: "/settings" },
 ];
 
 export default function Sidebar() {
