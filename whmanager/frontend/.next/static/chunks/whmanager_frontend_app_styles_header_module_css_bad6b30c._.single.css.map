@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/whmanager/frontend/app/styles/header.module.css"],"sourcesContent":[".header {\r\n  display: flex;\r\n  justify-content: space-between;\r\n  align-items: center;\r\n  background: #111827;\r\n  color: white;\r\n  padding: 0.75rem 1.25rem;\r\n  position: sticky;\r\n  top: 0;\r\n  z-index: 100;\r\n}\r\n\r\n.logo {\r\n  font-weight: 600;\r\n  font-size: 1.25rem;\r\n}\r\n\r\n.menuButton {\r\n  display: none;\r\n  background: none;\r\n  border: none;\r\n  font-size: 1.5rem;\r\n  color: white;\r\n  cursor: pointer;\r\n}\r\n\r\n/* Show menu button only on small screens */\r\n@media (max-width: 768px) {\r\n  .menuButton {\r\n    display: block;\r\n  }\r\n}\r\n"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;AAYA;;;;;AAKA;;;;;;;;;AAUA;EACE"}}]
+}

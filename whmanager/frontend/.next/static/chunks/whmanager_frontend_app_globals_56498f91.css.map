@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///D:/Programming/Git/WHManager/whmanager/frontend/app/globals.css"],"sourcesContent":["html,\nbody {\n  margin: 0;\n  padding: 0;\n  font-family: system-ui, sans-serif;\n  background-color: #f5f5f5;\n  height: 100%;\n}\n\n.appContainer {\n  display: flex;\n  height: 100vh;\n  width: 100vw;\n  overflow: hidden;\n}\n\n.mainContent {\n  flex-grow: 1;\n  display: flex;\n  flex-direction: column;\n  background: #fff;\n}\n"],"names":[],"mappings":"AAAA;;;;;;;;AASA;;;;;;;AAOA","debugId":null}}]
+}

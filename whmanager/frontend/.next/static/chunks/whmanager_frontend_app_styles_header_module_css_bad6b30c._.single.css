@@ -1,0 +1,35 @@
+/* [project]/whmanager/frontend/app/styles/header.module.css [app-client] (css) */
+.header-module__54r7CW__header {
+  color: #fff;
+  z-index: 100;
+  background: #111827;
+  justify-content: space-between;
+  align-items: center;
+  padding: .75rem 1.25rem;
+  display: flex;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.header-module__54r7CW__logo {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.header-module__54r7CW__menuButton {
+  color: #fff;
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .header-module__54r7CW__menuButton {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=whmanager_frontend_app_styles_header_module_css_bad6b30c._.single.css.map*/

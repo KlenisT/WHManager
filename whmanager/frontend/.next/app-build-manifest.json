@@ -1,0 +1,48 @@
+{
+  "pages": {
+    "/dashboard/page": [
+      "static/chunks/54c39_next_dist_f2af8931._.js",
+      "static/chunks/whmanager_frontend_app_favicon_ico_mjs_1a945f97._.js",
+      "static/chunks/whmanager_frontend_app_globals_56498f91.css",
+      "static/chunks/whmanager_frontend_app_layout_tsx_7ab5c5d1._.js",
+      "static/chunks/54c39_next_dist_client_components_builtin_global-error_4044774a.js",
+      "static/chunks/whmanager_f06b010a._.js",
+      "static/chunks/whmanager_frontend_app_styles_20abc0b0._.css",
+      "static/chunks/whmanager_frontend_app_dashboard_layout_tsx_4044774a._.js",
+      "static/chunks/whmanager_frontend_app_styles_dashboard_module_b52aa85b.css",
+      "static/chunks/whmanager_frontend_app_0fffc58f._.js",
+      "static/chunks/whmanager_frontend_app_dashboard_page_tsx_cdaf3c93._.js",
+      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_1b45ae99._.js",
+      "static/chunks/54c39_next_dist_compiled_react-dom_4a53ffca._.js",
+      "static/chunks/54c39_next_dist_compiled_next-devtools_index_50049d6a.js",
+      "static/chunks/54c39_next_dist_compiled_3240ccdb._.js",
+      "static/chunks/54c39_next_dist_client_023badfb._.js",
+      "static/chunks/54c39_next_dist_cf3246c4._.js",
+      "static/chunks/54c39_@swc_helpers_cjs_24f0309c._.js",
+      "static/chunks/whmanager_frontend_a0ff3932._.js",
+      "static/chunks/turbopack-whmanager_frontend_43766108._.js"
+    ],
+    "/login/page": [
+      "static/chunks/54c39_next_dist_f2af8931._.js",
+      "static/chunks/whmanager_frontend_app_favicon_ico_mjs_1a945f97._.js",
+      "static/chunks/whmanager_frontend_app_globals_56498f91.css",
+      "static/chunks/whmanager_frontend_app_layout_tsx_7ab5c5d1._.js",
+      "static/chunks/54c39_next_dist_client_components_builtin_global-error_4044774a.js",
+      "static/chunks/whmanager_frontend_app_styles_login_module_21dfee9e.css",
+      "static/chunks/whmanager_frontend_app_login_layout_tsx_4044774a._.js",
+      "static/chunks/54c39_61846fd5._.js",
+      "static/chunks/whmanager_frontend_app_452875f0._.js",
+      "static/chunks/whmanager_frontend_app_styles_auth_module_a13160c6.css",
+      "static/chunks/whmanager_frontend_app_login_page_tsx_e2462bee._.js",
+      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_1b45ae99._.js",
+      "static/chunks/54c39_next_dist_compiled_react-dom_4a53ffca._.js",
+      "static/chunks/54c39_next_dist_compiled_next-devtools_index_50049d6a.js",
+      "static/chunks/54c39_next_dist_compiled_3240ccdb._.js",
+      "static/chunks/54c39_next_dist_client_023badfb._.js",
+      "static/chunks/54c39_next_dist_cf3246c4._.js",
+      "static/chunks/54c39_@swc_helpers_cjs_24f0309c._.js",
+      "static/chunks/whmanager_frontend_a0ff3932._.js",
+      "static/chunks/turbopack-whmanager_frontend_43766108._.js"
+    ]
+  }
+}

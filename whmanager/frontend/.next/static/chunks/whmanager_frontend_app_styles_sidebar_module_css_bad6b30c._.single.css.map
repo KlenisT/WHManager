@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/whmanager/frontend/app/styles/sidebar.module.css"],"sourcesContent":[".sidebar {\r\n  width: 220px;\r\n  background: #1f2937;\r\n  color: white;\r\n  height: 100vh;\r\n  padding: 1rem;\r\n  display: flex;\r\n  flex-direction: column;\r\n}\r\n\r\n.nav ul {\r\n  list-style: none;\r\n  padding: 0;\r\n}\r\n\r\n.nav li {\r\n  margin: 1rem 0;\r\n}\r\n\r\n.nav a {\r\n  color: #d1d5db;\r\n  text-decoration: none;\r\n  font-weight: 500;\r\n  transition: color 0.2s ease;\r\n}\r\n\r\n.nav a:hover {\r\n  color: white;\r\n}\r\n\r\n.active a {\r\n  color: #3b82f6; /* bright blue highlight */\r\n  font-weight: 600;\r\n}\r\n"],"names":[],"mappings":"AAAA;;;;;;;;;;AAUA;;;;;AAKA;;;;AAIA;;;;;;;AAOA;;;;AAIA"}}]
+}

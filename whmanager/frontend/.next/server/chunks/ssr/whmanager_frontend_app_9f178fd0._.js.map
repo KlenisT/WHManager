@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/whmanager/frontend/app/styles/login.module.css [app-rsc] (css module)"],"sourcesContent":["__turbopack_context__.v({\n  \"authBox\": \"login-module__fE59lG__authBox\",\n  \"authContainer\": \"login-module__fE59lG__authContainer\",\n  \"error\": \"login-module__fE59lG__error\",\n});\n"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA"}},
+    {"offset": {"line": 12, "column": 0}, "map": {"version":3,"sources":["file:///D:/Programming/Git/WHManager/whmanager/frontend/app/login/layout.tsx"],"sourcesContent":["// app/login/layout.tsx\r\nimport '../styles/login.module.css';\r\n\r\nexport default function LoginLayout({ children }: { children: React.ReactNode }) {\r\n  return (\r\n    <div>\r\n      {children} {/* full-screen login content */}\r\n    </div>\r\n  );\r\n}\r\n"],"names":[],"mappings":"AAAA,uBAAuB;;;;;;AACvB;;;AAEe,SAAS,YAAY,EAAE,QAAQ,EAAiC;IAC7E,qBACE,2PAAC;;YACE;YAAS;;;;;;;AAGhB","debugId":null}}]
+}

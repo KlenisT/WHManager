@@ -1,0 +1,63 @@
+/* [project]/whmanager/frontend/app/styles/auth.module.css [app-client] (css) */
+.auth-module__SdIG2q__auth-container {
+  background: radial-gradient(circle at top, #1e293b, #0f172a);
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+}
+
+.auth-module__SdIG2q__auth-box {
+  text-align: center;
+  background-color: #1e293b;
+  border-radius: 20px;
+  width: 320px;
+  padding: 40px;
+  box-shadow: 0 0 40px rgba(0, 208, 132, .3);
+}
+
+.auth-module__SdIG2q__auth-img {
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.auth-module__SdIG2q__auth-box h1 {
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+}
+
+.auth-module__SdIG2q__auth-box form {
+  flex-direction: column;
+  gap: 15px;
+  display: flex;
+}
+
+.auth-module__SdIG2q__auth-box input {
+  color: #fff;
+  background-color: #0f172a;
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.auth-module__SdIG2q__auth-box button {
+  color: #000;
+  background-color: #00d084;
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+  font-weight: bold;
+  transition: all .2s;
+}
+
+.auth-module__SdIG2q__auth-box button:hover {
+  background-color: #00b370;
+}
+
+.auth-module__SdIG2q__error {
+  color: #f87171;
+  font-size: .9rem;
+}
+
+/*# sourceMappingURL=whmanager_frontend_app_styles_auth_module_a13160c6.css.map*/

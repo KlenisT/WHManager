@@ -1,0 +1,80 @@
+/* [project]/whmanager/frontend/app/styles/dashboard.module.css [app-client] (css) */
+.dashboard-module__J-KzEa__dashboard {
+  background: #f9fafb;
+  min-height: 100vh;
+  padding: 1.5rem;
+}
+
+.dashboard-module__J-KzEa__title {
+  color: #111827;
+  margin-bottom: 1.5rem;
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+.dashboard-module__J-KzEa__table {
+  gap: .5rem;
+  display: grid;
+}
+
+.dashboard-module__J-KzEa__row {
+  background: #fff;
+  border-radius: .5rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+  padding: .75rem 1rem;
+  transition: background .2s;
+  display: grid;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+}
+
+.dashboard-module__J-KzEa__row:hover {
+  background: #f3f4f6;
+}
+
+.dashboard-module__J-KzEa__headerRow {
+  color: #fff;
+  background: #1f2937;
+  font-weight: 600;
+}
+
+.dashboard-module__J-KzEa__status {
+  color: #2563eb;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .dashboard-module__J-KzEa__row {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "customer customer"
+                         "automower status"
+                         "date date";
+    row-gap: .25rem;
+  }
+
+  .dashboard-module__J-KzEa__headerRow {
+    display: none;
+  }
+
+  .dashboard-module__J-KzEa__row div:first-child:before {
+    content: "Customer: ";
+    font-weight: 600;
+  }
+
+  .dashboard-module__J-KzEa__row div:nth-child(2):before {
+    content: "Automower: ";
+    font-weight: 600;
+  }
+
+  .dashboard-module__J-KzEa__row div:nth-child(3):before {
+    content: "Status: ";
+    font-weight: 600;
+  }
+
+  .dashboard-module__J-KzEa__row div:nth-child(4):before {
+    content: "Date: ";
+    font-weight: 600;
+  }
+}
+
+/*# sourceMappingURL=whmanager_frontend_app_styles_dashboard_module_b52aa85b.css.map*/
